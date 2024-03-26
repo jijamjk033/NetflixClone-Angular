@@ -1,0 +1,11 @@
+<div class="header">
+  <img [src]="logoUrl" alt="logo" class="w-52" />
+@if(loginService.isLoggedIn){
+  <button  class="text-black font-bold m-4 h-10 p-2 rounded text-sm bg-white" (click)="logOut()">Sign Out</button>
+}
+
+</div>
+
+
+
+
